@@ -235,3 +235,20 @@ cat /proc/sys/net/ipv4/ip_forward
 # 6. Aktifkan IP forwarding (jika mati)
 sysctl -w net.ipv4.ip_forward=1
 ```
+
+#VLSM dan CPT
+## Topologi
+
+![alt text](A1.jpg)
+
+berdasarkan hasil tersebut, disimpulkan bahwa hasil subnetting berjumlah **23 subnet** yg perlu dilakukan.
+
+## Subnetting 
+
+![alt text](image.png)
+
+Diagram berikut adalah **peta yang menunjukkan cara kita membagi-bagi alamat IP utama (192.168.87.0/24)**.
+
+1.  **Tujuannya:** Memastikan setiap jaringan (A1 sampai A6) dapat jatah IP yang **pas dan hemat**.
+2.  **Caranya:** Kita mulai dari blok IP terbesar di atas. Lalu, kita bagi terus sisanya ke bawah (hierarkis) untuk memenuhi kebutuhan *host* dari yang paling besar (A2 dengan /27) sampai yang paling kecil (A1 dan A6 dengan /30).
+3.  **Hasilnya:** Setiap lingkaran (subnet) mendapat porsi IP yang ia butuhkan, jadi **tidak ada alamat IP yang terbuang sia-sia.**
