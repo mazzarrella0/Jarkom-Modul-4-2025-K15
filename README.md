@@ -130,8 +130,6 @@ Subnet-subnet di atas kemudian diagregasi secara hierarkis (bottom-up) untuk rou
 
 Berikut adalah representasi visual dari tabel agregasi subnet di atas.
 
-*(Silakan ganti placeholder di bawah ini dengan gambar pohon CIDR Anda)*
-
 <img width="1075" height="605" alt="Screenshot 2025-11-16 182747" src="https://github.com/user-attachments/assets/63fd8806-a0db-447b-9a2f-9d8f1b7685fe" />
 
 
