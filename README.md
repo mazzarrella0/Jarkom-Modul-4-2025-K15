@@ -236,7 +236,7 @@ cat /proc/sys/net/ipv4/ip_forward
 sysctl -w net.ipv4.ip_forward=1
 ```
 
-#VLSM dan CPT
+# VLSM dan CPT
 ## Topologi
 
 ![alt text](A1.jpg)
