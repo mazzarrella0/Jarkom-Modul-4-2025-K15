@@ -239,13 +239,13 @@ sysctl -w net.ipv4.ip_forward=1
 # VLSM dan CPT
 ## Topologi
 
-![A1 diagram](images/A1.jpg)
+![A1 diagram](assets/A1.jpg)
 
 berdasarkan hasil tersebut, disimpulkan bahwa hasil subnetting berjumlah **23 subnet** yg perlu dilakukan.
 
 ## Subnetting 
 
-![Subnet diagram](images/image.png)
+![Subnet diagram](assets/image.png)
 
 Diagram berikut adalah **peta yang menunjukkan cara kita membagi-bagi alamat IP utama (192.168.87.0/24)**.
 
