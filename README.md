@@ -1,5 +1,10 @@
 # Jarkom-Modul-4-2025-K15
 
+|No|Nama anggota|NRP|
+|---|---|---|
+|1. | Az Zahrra Tasya Adelia | 5027241087|
+|2. | Evan Christian Nainggolan | 5027241026|
+
 # Jarkom - Konfigurasi Jaringan VLSM & Agregasi CIDR
 
 Dokumentasi ini menjelaskan konfigurasi jaringan GNS3 menggunakan router Ubuntu, berdasarkan alokasi IP VLSM dan agregasi rute CIDR.
